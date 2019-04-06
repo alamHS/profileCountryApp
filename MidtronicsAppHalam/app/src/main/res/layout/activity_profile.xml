@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileActivity">
+
+    <ScrollView
+        android:layout_width="398dp"
+        android:layout_height="451dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Education:\n
+Bachelor's degree in Computer Science at the University of Illinois at Chicago, College of Engineering
+Graduating May 2019\n
+Skills:\n
+  - C/C++\n
+  - Java\n
+  - C#\n
+  - SQL\n
+  - Experience with Windows,Mac, and Linux OS\n
+  - Experience with\n
+    - Microsoft Visual Studio\n
+    - Dev C++\n
+    - Dr Java\n
+    - Android Studio\n
+    - QT Creator\n
+    - Unity Editor\n
+Experience:\n
+ Software Engineering Intern at Continental Automotive\n
+  | May 2018 - Aug 2018 |\n
+  - Contributed to development on an application\n
+  - Developed improved software structure for the\n
+    back end of the application\n
+  - Improved GUI elements of the application\n
+  - Documented the new features as they were added\n
+ Undergraduate TA/Tutor for UIC CS Department\n
+  | Jan 2017 - April 2019|\n
+  - Aid freshmen Computer Science students in\n
+    their programming projects\n
+  - Aid students during their lab sections\n
+  - Help students understand any issues they are\n
+    having with their programs during office hours\n
+  - Aid Professors in grading assignments\n"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2"
+            app:layout_constraintVertical_bias="0.77" />
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="281dp"
+        android:layout_height="195dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048"
+        app:srcCompat="@drawable/hibah" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="Hibah Alam"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="0.054" />
+
+</android.support.constraint.ConstraintLayout>
